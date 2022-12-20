@@ -1,0 +1,928 @@
+/* * {
+  margin: 0 auto;
+  padding: 0 auto;
+} */
+
+nav#filtrering button :hover {
+  color: white;
+}
+
+#filtrering {
+  display: flex;
+  /* text-align: center; */
+  align-items: flex-start;
+  float: left;
+  flex-direction: column;
+  color: white;
+}
+
+#filtrering ul {
+  margin-top: 0;
+  list-style: none;
+  padding: 0;
+}
+
+#filtrering li {
+  text-align: center;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#filtrering li p {
+  margin: 0;
+  font-weight: 300;
+  font-size: 13px;
+}
+.filter {
+  background: none;
+  color: #4e3c1a;
+  font-family: Degular Display;
+}
+
+/* .elementskit-btn {
+  height: 10em;
+} */
+.post-edit-link {
+  display: none;
+}
+
+.ast-single-post .entry-content a {
+  text-decoration: none;
+}
+
+.h1class {
+  display: none;
+}
+
+.sm {
+  display: flex;
+  justify-content: space-between;
+  object-fit: cover;
+}
+
+#udvalg {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+#udvalg article {
+  background-color: white;
+}
+
+#udvalg button {
+  color: white;
+  border: solid;
+  text-align: center;
+  background-color: #c2816f;
+  margin-bottom: 5px;
+}
+#udvalg p {
+  color: #4e3c1a;
+  font-family: Degular Display;
+  padding-left: 2em;
+}
+.entry-content p {
+  margin: 0;
+}
+
+@media (max-width: 625px) {
+  #udvalg {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    padding-left: 0.4em;
+    margin: -16px;
+  }
+
+  #filtrering {
+    display: flex;
+    flex-wrap: wrap;
+    /* text-align: center; */
+    /* float: none; */
+    flex-direction: row;
+    color: white;
+    gap: 0;
+    padding: 0;
+    margin: 0;
+
+    text-align: none;
+  }
+  .filter {
+    background: none;
+    color: #4e3c1a;
+    font-family: Degular Display;
+  }
+  .site-title a {
+    display: none;
+  }
+  .produktfiltrering {
+    text-align: center;
+  }
+
+  .productimages {
+    max-width: 245px;
+  }
+  .kurvlaeg {
+    font-family: degular display;
+    color: #4e3c1a;
+    justify-content: center;
+  }
+}
+
+.nh {
+  gap: 10px;
+}
+
+.elementor-section .elementor-container {
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+h1 .entry-title {
+  display: none;
+}
+
+.site-content.ast-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/* @media (min-width: 922px) {
+  .site-content .ast-container {
+    display: flex;
+    justify-content: center;
+  }
+} */
+
+.elementor-column-gap-default > .elementor-column > .elementor-element-populated {
+  padding: 0;
+}
+
+h4.elementor-heading-title.elementor-size-default {
+  font-size: 1.6em;
+  color: #4e3c1a;
+  font-family: Degular Display;
+}
+header a.menu-link {
+  color: #4e3c1a;
+  font-family: Degular Display;
+}
+h1.elementor-heading-title.elementor-size-default {
+  color: #4e3c1a;
+  font-family: Degular Display;
+}
+
+h2.elementor-heading-title.elementor-size-default {
+  color: #4e3c1a;
+  font-family: Degular Display;
+}
+h3.elementor-heading-title.elementor-size-default {
+  color: #4e3c1a;
+  font-family: Degular Display;
+}
+h4.elementor-heading-title.elementor-size-default {
+  color: #4e3c1a;
+  font-family: Degular Display;
+}
+h2 {
+  color: #4e3c1a;
+  font-family: Degular Display;
+}
+.title1 {
+  color: #4e3c1a;
+  font-family: Degular Display;
+}
+.entry-title a {
+  color: #4e3c1a;
+  font-family: Degular Display;
+}
+h1.entry-title {
+  display: none;
+}
+
+.produktfiltrering p {
+  font-family: bilo, sans-serif;
+  font-weight: 400;
+  font-size: 1.2em;
+  color: #4e3c1a;
+  font-family: Degular Display;
+}
+
+/*Singleview*/
+
+#popup article {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  background-color: white;
+}
+h5 {
+  display: none;
+}
+
+#popup article .titel {
+  color: #4e3c1a;
+  grid-column: 1/2;
+  margin-block: 1.2rem;
+  font-family: Degular Display;
+}
+
+#popup article .beskrivelse {
+  color: #4e3c1a;
+  grid-column: 1/2;
+  padding-right: 2em;
+}
+#popup article .pris {
+  color: #4e3c1a;
+  grid-column: 1/2;
+  font-size: 2em;
+  text-align: right;
+  padding-inline: 2rem;
+  font-family: Degular Display;
+}
+
+#popup article .ryk {
+  color: #4e3c1a;
+  grid-column: 2/2;
+}
+
+.kurv {
+  grid-column: 2/2;
+  /* border: solid;
+  text-align: center;
+  margin-right: 30em;
+  justify-content: center; */
+}
+
+.kurv button {
+  justify-content: center;
+  text-align: center;
+  background: none;
+  border: solid;
+  border-color: white;
+  background-color: #ebe8e2;
+  /* border-radius: 1em; */
+  color: white;
+  font-family: Degular Display;
+  background-color: #c2816f;
+  margin-top: 6rem;
+}
+
+.gave {
+  grid-column: 2/2;
+  border: solid;
+  text-align: center;
+  margin-top: 3em;
+  border-color: white;
+  background-color: #797065;
+  /* border-radius: 1em; */
+  color: #ffffff;
+  font-family: Degular Display;
+}
+
+.gave button {
+  justify-content: center;
+  text-align: center;
+  background: none;
+  color: #4e3c1a;
+  font-family: Degular Display;
+  border: solid;
+  margin-bottom: 20px;
+  background-color: white;
+  /* border-radius: 1.7em; */
+}
+.luk {
+  background: none;
+  border: solid;
+  margin-top: 4em;
+  color: #4e3c1a;
+  font-family: Degular Display;
+}
+
+@media (max-width: 625px) {
+  #popup article {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  h5 {
+    display: none;
+  }
+  #popup #pic {
+    color: #4e3c1a;
+    grid-column: 1/2;
+  }
+  #popup article .titel {
+    color: #4e3c1a;
+    grid-column: 1/2;
+    text-align: center;
+    font-family: Degular Display;
+  }
+
+  #popup article .beskrivelse {
+    color: #4e3c1a;
+    grid-column: 1/2;
+    text-align: center;
+  }
+  #popup article .pris {
+    color: #4e3c1a;
+    grid-column: 1/2;
+    font-family: Degular Display;
+  }
+
+  #popup article .ryk {
+    color: #4e3c1a;
+    grid-column: 1/2;
+  }
+
+  .kurv {
+    grid-column: 2/2;
+    /* border: solid;
+  text-align: center;
+  margin-right: 30em;
+  justify-content: center; */
+  }
+
+  .kurv button {
+    justify-content: center;
+    text-align: center;
+    background: none;
+    border: solid;
+    border-color: white;
+    /* border-radius: 1em; */
+    color: white;
+    font-family: Degular Display;
+    background-color: #c2816f;
+  }
+
+  .gave {
+    grid-column: 2/2;
+    border: solid;
+    text-align: center;
+    margin-top: 2em;
+    border-color: white;
+    /* border-radius: 1em; */
+    color: white;
+    font-family: Degular Display;
+    background-color: #797065;
+  }
+
+  .gave button {
+    justify-content: center;
+    text-align: center;
+    background: none;
+    color: black;
+    font-family: Degular Display;
+    border: solid;
+    margin-bottom: 20px;
+    background-color: white;
+  }
+}
+/*Popup til gave*/
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.modal {
+  position: absolute;
+  top: 63%;
+  left: 70%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 1px solid black;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: white;
+  width: 700px;
+  max-width: 80%;
+}
+
+.modal.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.modal-header .title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.modal-header .close-button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.modal-body {
+  padding: 10px 15px;
+}
+.modal-body button {
+  background: none;
+  color: #4e3c1a;
+  font-family: Degular Display;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.modal-body h4 {
+  padding-right: 25em;
+}
+
+#gavepapir {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: bottom;
+  gap: 5px;
+}
+.gavepapirboks1 {
+  border: solid;
+  border-width: 0.2px;
+  color: #4e3c1a;
+  font-family: Degular Display;
+}
+.gavepapirboks2 {
+  border: solid;
+  border-width: 0.2px;
+
+  color: #4e3c1a;
+  font-family: Degular Display;
+}
+.gavepapirboks3 {
+  border: solid;
+  border-width: 0.2px;
+
+  color: #4e3c1a;
+  font-family: Degular Display;
+}
+
+#kort {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+}
+.kort1 {
+  border: solid;
+  border-width: 0.2px;
+
+  color: #4e3c1a;
+  font-family: Degular Display;
+}
+.kort2 {
+  border: solid;
+  border-width: 0.2px;
+
+  color: #4e3c1a;
+  font-family: Degular Display;
+}
+.kort3 {
+  border: solid;
+  border-width: 0.2px;
+
+  color: #4e3c1a;
+  font-family: Degular Display;
+}
+
+#hilsen {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.til {
+  grid-column: 1/2;
+  color: #4e3c1a;
+  font-family: Degular Display;
+}
+.fra {
+  grid-column: 2/2;
+  color: #4e3c1a;
+  font-family: Degular Display;
+}
+.produktfiltrering {
+  text-decoration: underline;
+  font-size: 25px;
+  color: #4e3c1a;
+  font-family: Degular Display;
+}
+
+/*Kurser*/
+main {
+  background-color: #ebe8e2;
+}
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+.h1h1 {
+  display: flex;
+  justify-content: center;
+  color: #4e3c1a;
+  font-family: Degular Display;
+}
+#guide {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-left: 18em;
+}
+#guide2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-left: 16em;
+}
+
+.boks1 {
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  text-align: center;
+  grid-column: 1/1;
+}
+.boks2 {
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  text-align: center;
+  grid-column: 2/2;
+}
+
+.boks3 {
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  text-align: center;
+  grid-column: 3/3;
+}
+
+.boks4 {
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  text-align: center;
+  grid-column: 4/4;
+}
+
+#omkurser {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 5em;
+  gap: 5em;
+}
+
+.kursusbillede {
+  grid-column: 2/2;
+}
+.kursustekst {
+  grid-column: 3/3;
+}
+
+ul {
+  list-style-type: none;
+}
+body {
+  font-family: Verdana, sans-serif;
+}
+
+.site-content {
+  background-color: #ebe8e2;
+}
+
+/* Måned header */
+
+/* Måned list */
+.måned ul {
+  margin: 0;
+  padding: 0;
+}
+
+.måned ul li {
+  color: #4e3c1a;
+  font-size: 50px;
+  font-family: Degular Display;
+}
+
+/* Previous button inside måned header */
+.måned .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+/* Next button */
+.måned .next {
+  float: right;
+  padding-top: 10px;
+}
+
+/* Ugedage (Man-Søn) */
+.ugedage {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ddd;
+}
+
+.ugedage li {
+  display: inline-block;
+  width: 13.6%;
+  color: #4e3c1a;
+  font-family: Degular Display;
+  text-align: center;
+}
+
+/* Dage (1-31) */
+.dage {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.dage li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 32px;
+  height: 3em;
+
+  color: #4e3c1a;
+  font-family: Degular Display;
+  background-color: white;
+}
+
+.dage li .active {
+  padding: 8px;
+  background: #4e3c1a;
+  font-family: Degular Display;
+  color: white !important;
+}
+
+.dage li button h3 {
+  font-size: 20px;
+}
+
+.dage button {
+  font-size: 32px;
+  color: #4e3c1a;
+  font-family: Degular Display;
+  background-color: white;
+  margin-bottom: -15px;
+  margin-top: -15px;
+  padding-top: 5px;
+}
+.reddot {
+  height: 25px;
+  width: 25px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.greendot {
+  height: 25px;
+  width: 25px;
+  background-color: green;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/*Produksingle billeder*/
+
+.productimages {
+  max-width: 345px;
+}
+
+#pic2 {
+  max-width: 185px;
+  grid-column: 1/1;
+}
+#pic3 {
+  max-width: 185px;
+  grid-column: 2/2;
+}
+#pic4 {
+  max-width: 185px;
+  grid-column: 3/3;
+}
+
+.box {
+  width: 12rem;
+  height: 2rem;
+  background-color: #797065;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle {
+  height: 25px;
+  width: 25px;
+  background-color: white;
+  border-radius: 50%;
+}
+.line {
+  width: 10px;
+  height: 5px;
+  background-color: white;
+}
+/*Popup til Kalendersiden blanket */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.tilmeldingsblanket .modal {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 1px solid black;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: white;
+  width: 700px;
+  max-width: 80%;
+  color: #4e3c1a;
+  font-family: Degular Display;
+}
+
+.tilmeldingsblanket .modal.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.tilmeldingsblanket .modal-header {
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  border-bottom: 0px solid black;
+  color: #4e3c1a;
+  font-family: Degular Display;
+}
+
+.tilmeldingsblanket .modal-header .title h3 {
+  font-size: 3.25rem;
+  font-weight: bold;
+  align-items: center;
+  color: #4e3c1a;
+  font-family: Degular Display;
+  justify-content: center;
+}
+
+.tilmeldingsblanket .modal-header .close-button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #4e3c1a;
+  font-family: Degular Display;
+}
+
+.tilmeldingsblanket .modal-body {
+  padding: 10px 15px;
+}
+.tilmeldingsblanket .modal-body button {
+  background: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #4e3c1a;
+  font-family: Degular Display;
+}
+
+.tilmeldingsblanket .modal-body h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #4e3c1a;
+  font-family: Degular Display;
+  align-content: center;
+}
+
+.kalenderpopup1 {
+  border: 1px solid black;
+  margin-top: 10px;
+}
+
+.kalenderpopup2 {
+  border: 1px solid black;
+  margin-top: 10px;
+}
+.kalenderpopup3 {
+  border: 1px solid black;
+  margin-top: 10px;
+}
+.kalenderpopup3 p {
+  border-bottom: 2px solid black;
+  width: 50%;
+}
+.kurvlaeg {
+  font-family: degular display;
+  color: #4e3c1a;
+  justify-content: center;
+  margin-left: 100px;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 0 auto;
+}
+
+p {
+  max-width: 65ch;
+  margin: 0 auto;
+  line-height: 2;
+  font-size: 1.25em;
+}
+svg {
+  margin-bottom: -8px;
+}
+
+/*Kontaktformular*/
+#contact {
+  background: white;
+  padding: 25px;
+  border: 1px solid #ccc;
+}
+
+#contact h3 {
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+  color: #4e3c1a;
+  font-family: Degular Display;
+}
+
+#contact h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+  color: #4e3c1a;
+  font-family: Degular Display;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+  color: #4e3c1a;
+  font-family: Degular Display;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
+  width: 94%;
+  border: 1px solid #ccc;
+  background: white;
+  margin: 0 0 5px;
+  padding: 10px;
+  color: #4e3c1a;
+  font-family: Degular Display;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact input[type="url"]:hover,
+#contact textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+  color: #4e3c1a;
+  font-family: Degular Display;
+}
+
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 95%;
+  border: 2px solid white;
+  background-color: #c2816f;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+  font-family: Degular Display;
+}
